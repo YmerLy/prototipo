@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<style type="text/css">
+		body{
+			margin: 0;
+			padding: 0;
+		}
+		#principal{
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			background: url(_img/_bg1.jpg);
+		}
+		#login-table{
+			font-family: monospace;
+			text-transform: uppercase;
+			float: left;
+			background: rgba(255,255,255,0.42);
+			width: 15%;
+			height: 30%;
+			margin-left: 40%;
+			margin-top: 15%;
+		}
+		#login-table2{
+			margin-left: 10%;
+			margin-right: 10%; 
+			margin-top: 20%;
+		}
+		input{
+			display: block;
+			padding: 1px;
+			width: 70%;
+			margin-top: 5%;
+			background: rgba(255,255,255,0.80);
+			border: none;
+			padding: 2%;
+		}
+		input:active{
+			background: black;
+		}
+		span{
+			display: block;
+			font-size: 15px;
+			margin-top: 5%;
+		}
+		button{
+			display: block;
+			margin-top: 5%;
+			padding: 1%;
+			font-size: 14px;
+		}
+	</style>
+	<title>Login</title>
+</head>
+<body>
+	<div id="principal">
+		<div id="login-table">
+			<div id="login-table2">
+				<span>Usuário</span>
+				<input type="text" name="user-login" id="user-login">
+				<span>Senha</span>
+				<input type="password" name="pass-login" id="pass-login">
+				<button id="enter-login">Acessar</button>
+			</div>
+		</div>
+		<footer id="rodape">
+			
+		</footer>
+	</div>
+
+</body>
+</html>
